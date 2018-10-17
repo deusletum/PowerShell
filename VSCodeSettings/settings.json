@@ -1,0 +1,25 @@
+{
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Spacemacs",
+    "terminal.integrated.shell.windows": "C:\\windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "[powershell]": {
+        "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?"
+    },
+    "[xml]": {
+        "editor.tabSize": 2
+    },
+    "explorer.confirmDelete": false,
+    "editor.largeFileOptimizations": false,
+    "breadcrumbs.enabled": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "csharp.suppressDotnetRestoreNotification": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "omnisharp.projectLoadTimeout": 120,
+    "files.trimTrailingWhitespace": true
+}

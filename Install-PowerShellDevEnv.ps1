@@ -4,6 +4,8 @@
 # TODO investigate using const vars in powershell
 # TODO Conside creating an Object/Type with all the Const vars
 # TODO Turn all this into functions
+# TODO Enable the msiexec logging and probably parsing
+# TODO Turn this in a PowerShell Nuget package
 
 $rootDir = $PSScriptRoot
 $ExtensionsFile = "$rootDir\vscode-extensions.txt"
@@ -12,7 +14,7 @@ $VSCodeUserSettingsFilePath = "$env:USERPROFILE\AppData\Roaming\Code\User\Settin
 $JustInstallPath = "${env:SystemRoot}\System32\Just-Install.exe"
 $MSIExecPath = "${env:SystemRoot}\System32\msiexec.exe"
 $NodeJSPath = "${env:USERPROFILE}\AppData\Roaming\npm"
-$NodePackages = @('install', 'typescript', 'electron', 'graphql', 'react', 'react-dom', 'react-router', 'redux', 'express', '-g')
+$NodePackages = @('install', 'tslint', 'typescript', 'electron', 'graphql', 'react', 'react-dom', 'react-router', 'redux', 'express', '-g')
 
 # Install Just-Install to install VSCode
 "Installing Just-Install package manger" | Write-Host -ForegroundColor DarkCyan
